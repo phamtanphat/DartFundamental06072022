@@ -24,4 +24,11 @@ void main() {
   // String runesObject = "\u2026";
   // print(runesObject);
 
+  /**
+   * 3. Check kiểu dữ liệu
+   */
+  // var company = "Tech Base";
+  // print(company.runtimeType);
+
+
 }
