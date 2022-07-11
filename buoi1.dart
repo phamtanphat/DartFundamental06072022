@@ -30,5 +30,59 @@ void main() {
   // var company = "Tech Base";
   // print(company.runtimeType);
 
+  /**
+   * 4. Xử lý chuỗi
+   */
 
+  // String name = "Phạm Tấn Phát";
+  // String address = "Quận 1";
+
+  // String buffer
+  // Khớp tạo object
+  // StringBuffer stringBuffer = StringBuffer();
+  // stringBuffer.write("Tên: ");
+  // stringBuffer.write(name);
+  // print(stringBuffer);
+
+  // String interpolation
+  // print("Tên: ${name}, Địa Chỉ: ${address}");
+
+  // String multiple line (Dùng cho các câu truy vấn)
+  // String multipleLine =
+  //     'SELECT * '
+  //     'FROM table_name'
+  //     'Where id = 1';
+  //
+  // print(multipleLine);
+
+  /**
+   * 5. Final, Const
+   */
+  // runtime, compile
+  // int a = 10;
+  // const b = a;
+
+  /**
+   * 6. Toán tử
+   */
+
+  // Toán hạng: 5, 10, 15, 0.1
+  // Toán tử: + - * /
+  // Biểu thức: Có giá trị trả về
+  // int a = 5;
+  // int b = 10;
+  // int c = a + b;
+
+  // Độ ưu tiên
+  // a++;
+  // Lấy giá trị a và thế vào chỗ a;
+  // Lấy a + 1;
+  // ++a thì ngược lại
+  int number1 = 5;
+  int number2 = -5;
+
+  int result = number1++ - --number2 + ++number2 - --number1 + --number1 + ++number1;
+  // 5 - --number2 + ++number2 - --number1 + --number1 + ++number1;
+
+  // number1 ?, number2 ?, result ?
 }
