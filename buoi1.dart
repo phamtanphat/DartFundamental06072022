@@ -78,10 +78,10 @@ void main() {
   // Lấy giá trị a và thế vào chỗ a;
   // Lấy a + 1;
   // ++a thì ngược lại
-  int number1 = 5;
-  int number2 = -5;
-
-  int result = number1++ - --number2 + ++number2 - --number1 + --number1 + ++number1;
+  // int number1 = 5;
+  // int number2 = -5;
+  //
+  // int result = number1++ - --number2 + ++number2 - --number1 + --number1 + ++number1;
   // 5 - --number2 + ++number2 - --number1 + --number1 + ++number1; number1 = 6, number2 = -5
   // 5 - (-6) + ++number2 - --number1 + --number1 + ++number1; number1 = 6, number2 = -6
   // 5 - (-6) + (-5) - --number1 + --number1 + ++number1; number1 = 6, number2 = -5
@@ -91,8 +91,30 @@ void main() {
   // 5 + 6 - 5 - 5 + 4 + 5
   // 10
 
-  print("Number1: $number1");
-  print("Number2: $number2");
-  print("Result: $result");
+  // print("Number1: $number1");
+  // print("Number2: $number2");
+  // print("Result: $result");
   // number1 = 5, number2 = -6, result = 13
+
+
+  /**
+   * 7. Câu điều kiện
+   */
+
+  // int a = 5;
+  // int b = 10;
+
+  // Scope : {}
+  // Toán tử so sánh: < , < = ,> , > =, = =, && , ||
+  // if (a < b) {
+  //   // To do
+  // } else if () {
+  //
+  // } else {
+  //
+  // }
+
+  // if (a > b) print("1");
+  // else if (a < b) print("-1");
+  // else print("0");
 }
