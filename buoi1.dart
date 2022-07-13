@@ -82,7 +82,17 @@ void main() {
   int number2 = -5;
 
   int result = number1++ - --number2 + ++number2 - --number1 + --number1 + ++number1;
-  // 5 - --number2 + ++number2 - --number1 + --number1 + ++number1;
+  // 5 - --number2 + ++number2 - --number1 + --number1 + ++number1; number1 = 6, number2 = -5
+  // 5 - (-6) + ++number2 - --number1 + --number1 + ++number1; number1 = 6, number2 = -6
+  // 5 - (-6) + (-5) - --number1 + --number1 + ++number1; number1 = 6, number2 = -5
+  // 5 - (-6) + (-5) - 5 + --number1 + ++number1; number1 = 5, number2 = -5
+  // 5 - (-6) + (-5) - 5 + 4 + ++number1; number1 = 4, number2 = -5
+  // 5 - (-6) + (-5) - 5 + 4 + 5; number1 = 5, number2 = -5
+  // 5 + 6 - 5 - 5 + 4 + 5
+  // 10
 
-  // number1 ?, number2 ?, result ?
+  print("Number1: $number1");
+  print("Number2: $number2");
+  print("Result: $result");
+  // number1 = 5, number2 = -6, result = 13
 }
