@@ -117,4 +117,38 @@ void main() {
   // if (a > b) print("1");
   // else if (a < b) print("-1");
   // else print("0");
+
+  // Tính BMI
+
+  // int month = 1;
+  // switch (month) {
+  //   case 1:
+  //     print("Quý 1");
+  //     break;
+  //   case 2:
+  //     print("Quý 1");
+  //     break;
+  //   default:
+  //     print("Không thỏa");
+  //     break;
+  // }
+
+
+  /**
+   * 8. Mảng
+   */
+
+  // index của mảng sẽ bắt đầu từ 0
+  List<String> arrNames = ["Tèo", "Tý", "Tủn", "Hoa"];
+  List<String> arrNames2 = List.empty();
+
+  // Thêm dữ liệu
+  arrNames.add("Linh");
+
+  // Cập nhật dữ liệu
+  arrNames[0] = "Tuấn";
+
+  // Xóa dữ liệu
+  arrNames.removeAt(2);
+
 }
