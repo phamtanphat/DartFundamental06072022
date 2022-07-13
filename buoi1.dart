@@ -139,16 +139,48 @@ void main() {
    */
 
   // index của mảng sẽ bắt đầu từ 0
-  List<String> arrNames = ["Tèo", "Tý", "Tủn", "Hoa"];
-  List<String> arrNames2 = List.empty();
+  // List<String> arrNames = ["Tèo", "Tý", "Tủn", "Hoa"];
+  // List<String> arrNames2 = List.empty();
+  //
+  // // Thêm dữ liệu
+  // arrNames.add("Linh");
+  //
+  // // Cập nhật dữ liệu
+  // arrNames[0] = "Tuấn";
+  //
+  // // Xóa dữ liệu
+  // arrNames.removeAt(2);
 
-  // Thêm dữ liệu
-  arrNames.add("Linh");
 
-  // Cập nhật dữ liệu
-  arrNames[0] = "Tuấn";
+  /**
+   * 9. Vòng lặp
+   */
 
-  // Xóa dữ liệu
-  arrNames.removeAt(2);
+  // for (int i = 0; i < 10; i++) {
+  //   print("$i");
+  // }
 
+  // Vòng lặp chạy từ 1 -> 100
+  // In số chia hết cho 2
+  // In số chia hết cho 3
+  // In số chia 3 dư 1
+
+  // for (int i = 1; i < 100; i++) {
+  //   if (i % 3 == 1) print(i);
+  // }
+
+  // Tìm số nguyên số (Coi số nào chỉ có 2 ước thì nó là số nguyên tố)
+
+  // List<String> arrNames = ["Tèo", "Tý", "Tủn", "Hoa"];
+
+  // In các giá trị từ dưới lên trên
+  // for (int i = arrNames.length - 1; i >= 0 ; i--) {
+  //   print(arrNames[i]);
+  // }
+
+  int count = 2;
+  List<int> arrNumbers = [1, 3, 2, 10, 4, 15, 5, 8, 7, 20];
+  // Dùng count để biết số lượng phải cộng
+  // Dùng count để tách thành 1 mảng mới với số lượng phần tử bằng với count
+  // Sử dụng swap để sắp xếp mảng tăng dần
 }
