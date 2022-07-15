@@ -195,16 +195,34 @@ void main() {
   // Dùng count để tách thành 1 mảng mới với số lượng phần tử bằng với count
   // Sử dụng swap để sắp xếp mảng tăng dần
 
-  int number = 0;
+  // int number = 0;
+  //
+  // do {
+  //   print("Nhập số bất kỳ: ");
+  //   String? input = stdin.readLineSync();
+  //   if (input != null) {
+  //     number = int.parse(input);
+  //     if (number < 0) {
+  //       print("Number không được bé hơn 0");
+  //     }
+  //   }
+  // } while (number < 0);
 
-  do {
-    print("Nhập số bất kỳ: ");
-    String? input = stdin.readLineSync();
-    if (input != null) {
-      number = int.parse(input);
-      if (number < 0) {
-        print("Number không được bé hơn 0");
-      }
-    }
-  } while (number < 0);
+  /**
+   * 10. Xử lý exception
+   */
+
+  int a = 5;
+  int b = 0;
+  try {
+    int result = a ~/ b;
+    print(result);
+  } on IntegerDivisionByZeroException catch (errorDivisionByZero) {
+    print("Chia với 0 bị lỗi");
+  } catch (e) {
+    print(e);
+  } finally {
+    print("Tiếp tục");
+  }
+
 }
