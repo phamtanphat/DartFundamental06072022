@@ -178,9 +178,25 @@ void main() {
   //   print(arrNames[i]);
   // }
 
-  int count = 2;
-  List<int> arrNumbers = [1, 3, 2, 10, 4, 15, 5, 8, 7, 20];
+  // int count = 2;
+  // List<int> arrNumbers = [1, 3, 2, 10, 4, 15, 5, 8, 7, 20];
   // Dùng count để biết số lượng phải cộng
+  // arrNumbers.sort();
+  // print(arrNumbers);
+  // int result = 0;
+  //
+  // for (int i = 0 ; i < count ; i++) {
+  //   result += arrNumbers[i];
+  // }
+  //
+  // print(result);
   // Dùng count để tách thành 1 mảng mới với số lượng phần tử bằng với count
   // Sử dụng swap để sắp xếp mảng tăng dần
+
+  // int a = 5;
+  //
+  // while (a < 10) {
+  //   print(a);
+  //   a++;
+  // }
 }
