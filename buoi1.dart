@@ -1,5 +1,7 @@
 import 'dart:ffi';
 
+import 'dart:io';
+
 void main() {
 
   /**
@@ -193,10 +195,16 @@ void main() {
   // Dùng count để tách thành 1 mảng mới với số lượng phần tử bằng với count
   // Sử dụng swap để sắp xếp mảng tăng dần
 
-  // int a = 5;
-  //
-  // while (a < 10) {
-  //   print(a);
-  //   a++;
-  // }
+  int number = 0;
+
+  do {
+    print("Nhập số bất kỳ: ");
+    String? input = stdin.readLineSync();
+    if (input != null) {
+      number = int.parse(input);
+      if (number < 0) {
+        print("Number không được bé hơn 0");
+      }
+    }
+  } while (number < 0);
 }
