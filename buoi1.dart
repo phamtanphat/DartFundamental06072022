@@ -212,17 +212,34 @@ void main() {
    * 10. Xử lý exception
    */
 
-  int a = 5;
-  int b = 0;
-  try {
-    int result = a ~/ b;
-    print(result);
-  } on IntegerDivisionByZeroException catch (errorDivisionByZero) {
-    print("Chia với 0 bị lỗi");
-  } catch (e) {
-    print(e);
-  } finally {
-    print("Tiếp tục");
-  }
+  // int a = 5;
+  // int b = 0;
+  // try {
+  //   int result = a ~/ b;
+  //   print(result);
+  // } on IntegerDivisionByZeroException catch (errorDivisionByZero) {
+  //   print("Chia với 0 bị lỗi");
+  // } catch (e) {
+  //   print(e);
+  // } finally {
+  //   print("Tiếp tục");
+  // }
 
+
+  /**
+   * 11. Function (Phương thức)
+   */
+
+  _printMessage(null);
 }
+
+// Cấu trúc của phương thức
+// 1 : Kiểu dữ liệu trả về
+// 2 : Tên phương thức
+// 3 : Tham số truyền vào
+
+void _printMessage(String? message) {
+  var output = message ??= "Thằng message là null";
+  print(output);
+}
+
