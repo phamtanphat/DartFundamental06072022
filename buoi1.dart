@@ -1,7 +1,3 @@
-import 'dart:ffi';
-
-import 'dart:io';
-
 import 'animal.dart';
 
 void main() {
@@ -247,8 +243,9 @@ void main() {
 
   // Class va Object
 
-  Animal animal1 = Animal();
-  Animal animal2 = Animal();
+  // ctrl + p : xem tham số truyền vào
+  Animal animal1 = Animal("Mèo", 1.5);
+  Animal animal2 = Animal("Chó", 5);
 
   print(animal1 == animal2);
 }
