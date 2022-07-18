@@ -244,8 +244,8 @@ void main() {
   // Class va Object
 
   // ctrl + p : xem tham số truyền vào
-  Animal animal1 = Animal("Mèo", 1.5);
-  Animal animal2 = Animal("Chó", 5);
+  Animal animal1 = Animal(AnimalType.NAME);
+  Animal animal2 = Animal(AnimalType.WEIGHT);
 
   animal1.printAnimal();
 }
