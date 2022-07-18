@@ -247,7 +247,7 @@ void main() {
   Animal animal1 = Animal("Mèo", 1.5);
   Animal animal2 = Animal("Chó", 5);
 
-  print(animal1 == animal2);
+  animal1.printAnimal();
 }
 
 // Cấu trúc của phương thức

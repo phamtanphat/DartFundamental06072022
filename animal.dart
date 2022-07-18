@@ -7,4 +7,9 @@ class Animal {
     this.name = name;
     this.weight = weight;
   }
+
+  // phương thức
+  void printAnimal() {
+    print("Name: $name\nWeight: $weight");
+  }
 }
