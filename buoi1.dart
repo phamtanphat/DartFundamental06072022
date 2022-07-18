@@ -1,5 +1,6 @@
 import 'animal.dart';
 import 'cat.dart';
+import 'demo3.dart';
 
 void main() {
 
@@ -252,9 +253,12 @@ void main() {
   // _printMessage(stringResource: 12079, message: "Xin chào");
   // _printMessage2("", 5);
 
-  Cat mimi = Cat("Mimi", 2.2, "White");
-  mimi.color = "Black";
-  mimi.printAnimal();
+  // Cat mimi = Cat("Mimi", 2.2, "White");
+  // mimi.color = "Black";
+  // mimi.printAnimal();
+
+  Demo3 demo3 = Demo3();
+  demo3.printDemo();
 }
 
 // Cấu trúc của phương thức
