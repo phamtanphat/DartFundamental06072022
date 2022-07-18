@@ -1,4 +1,5 @@
 import 'animal.dart';
+import 'cat.dart';
 
 void main() {
 
@@ -248,8 +249,12 @@ void main() {
   // Animal animal2 = Animal(AnimalType.WEIGHT);
   //
   // animal1.printAnimal();
-  _printMessage(stringResource: 12079, message: "Xin chào");
-  _printMessage2("", 5);
+  // _printMessage(stringResource: 12079, message: "Xin chào");
+  // _printMessage2("", 5);
+
+  Cat mimi = Cat("Mimi", 2.2, "White");
+  mimi.color = "Black";
+  print(mimi.color);
 }
 
 // Cấu trúc của phương thức
@@ -263,11 +268,11 @@ void main() {
 // }
 
 // Named Parameter;
-void _printMessage({String message = "", num stringResource = 0}) {
-
-}
+// void _printMessage({String message = "", num stringResource = 0}) {
+//
+// }
 
 // Position Parameter;
-void _printMessage2([String message = "", num stringResource = 0]) {
-
-}
+// void _printMessage2([String message = "", num stringResource = 0]) {
+//
+// }
