@@ -244,10 +244,12 @@ void main() {
   // Class va Object
 
   // ctrl + p : xem tham số truyền vào
-  Animal animal1 = Animal(AnimalType.NAME);
-  Animal animal2 = Animal(AnimalType.WEIGHT);
-
-  animal1.printAnimal();
+  // Animal animal1 = Animal(AnimalType.NAME);
+  // Animal animal2 = Animal(AnimalType.WEIGHT);
+  //
+  // animal1.printAnimal();
+  _printMessage(stringResource: 12079, message: "Xin chào");
+  _printMessage2("", 5);
 }
 
 // Cấu trúc của phương thức
@@ -260,3 +262,12 @@ void main() {
 //   print(output);
 // }
 
+// Named Parameter;
+void _printMessage({String message = "", num stringResource = 0}) {
+
+}
+
+// Position Parameter;
+void _printMessage2([String message = "", num stringResource = 0]) {
+
+}
