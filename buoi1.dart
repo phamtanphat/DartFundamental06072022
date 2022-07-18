@@ -2,6 +2,8 @@ import 'dart:ffi';
 
 import 'dart:io';
 
+import 'animal.dart';
+
 void main() {
 
   /**
@@ -230,7 +232,25 @@ void main() {
    * 11. Function (Phương thức)
    */
 
-  _printMessage(null);
+  // _printMessage(null);
+
+  /**
+   * 12. Hướng đối tượng
+   *
+   * Các tính chất
+   * - Tính kế thừa
+   * - Tính đóng gói
+   * - Tính trượu tượng
+   * - Tính đa hình
+   * - Quan hệ has A
+   */
+
+  // Class va Object
+
+  Animal animal1 = Animal();
+  Animal animal2 = Animal();
+
+  print(animal1 == animal2);
 }
 
 // Cấu trúc của phương thức
@@ -238,8 +258,8 @@ void main() {
 // 2 : Tên phương thức
 // 3 : Tham số truyền vào
 
-void _printMessage(String? message) {
-  var output = message ??= "Thằng message là null";
-  print(output);
-}
+// void _printMessage(String? message) {
+//   var output = message ??= "Thằng message là null";
+//   print(output);
+// }
 
