@@ -7,9 +7,12 @@ class Cat extends Animal{
 
   set color(String color) => _color = color;
 
-
   Cat(String name, num weight, String color) : super(name, weight) {
     _color = color;
   }
 
+  @override
+  void printAnimal() {
+    print("Name: $name\nWeight: $weight\nColor: $color");
+  }
 }

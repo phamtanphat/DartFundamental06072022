@@ -254,7 +254,7 @@ void main() {
 
   Cat mimi = Cat("Mimi", 2.2, "White");
   mimi.color = "Black";
-  print(mimi.color);
+  mimi.printAnimal();
 }
 
 // Cấu trúc của phương thức
